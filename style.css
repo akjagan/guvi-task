@@ -1,0 +1,540 @@
+.color-primary-light {
+    color: rgb(255 118 55);
+    }
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7f7f7;
+    }
+    
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+        padding: 20px 50px;
+    }
+    
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+        font-style:inherit ;
+    }
+    
+    .Menu>ul {
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+    }
+    
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+    
+    .hero-content {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        max-width: 1200px;
+        width: 100%;
+        padding: 0 50px;
+    }
+    
+    .hero-text h1 {
+        font-size: 48px;
+        line-height: 1.2;
+        color: #333;
+    }
+    
+    .hero-text h1 span {
+        color: #ff6600;
+    }
+    
+    .hero-text p {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #666;
+    }
+    
+    .btn-discover {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 15px 30px;
+        background-color: transparent;
+        color: #ff6600;
+        border: 2px solid #ff6600;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .hero-image img {
+        width: 200%;
+        max-width: 500px;
+        height: auto;
+    }
+    
+    
+    .explore {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: 30px 0;
+        background-color: #f9f9f9;
+    }
+    
+    .explore-options {
+        display: flex;
+        
+        max-width: 1000px;
+    }
+    
+    .explore-card {
+        background-color: #fff;
+        padding: 20px;
+        
+        text-align: center;
+        flex: 1;
+    }
+    
+    .btn-explore {
+        display: inline-block;
+        padding: 15px 30px;
+        background-color: #ff6600;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    
+    
+    .things-to-do {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: #f7f7fb;
+        
+        
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    
+         width: 85%;
+        max-width: 1200px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 0 auto;
+    
+    }
+    
+    
+    .Things-to-do h2{
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+        
+    }
+    
+    .Things-to-do h2 span {
+        color: #f05b44
+    }
+    
+    .description {
+        font size: 2%;
+        color: #7d7d7d;
+        margin-bottom: 40px;
+    }
+    
+    .steps{
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+    
+    .step{
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        width: 25%;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
+    
+    .step h3{
+        font-size: 20px;
+        color: #333;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .step p{
+        font-size: 14px;
+        color: #7d7d7d;
+        font-display:unset;
+    }
+    
+    .container2{
+        width: 85%;
+        max-width: 1200px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    h2{
+        font-size: 2.5em;
+        color: #333;
+    }
+    
+    h2 span{
+        color: #ff5722;
+    }
+    
+    .description{
+        font-size: 1.2em;
+        color:#666;
+        margin-bottom: 40px;
+    }
+    
+    .card-container{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+    .card img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    
+    .card2 img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        
+    }
+    
+    .card3 img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    .card4 img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    .navigition-buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navigition-buttons button {
+        background-color: #ff5722;
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+        margin: 0 10px;
+        cursor: pointer;
+        font-size: 1.5em;
+        
+    }
+    
+    .vacation-plan{
+        padding: 60px 0;
+    
+        padding: 50px 20px;
+        text-align: center;
+    
+        background-color: #f7f7fb;
+        
+    }
+    
+    
+    .vacation-plan h2 {
+        font-size: 2.5em;
+        color: #333;
+    }
+    
+    .vacation-plan h2 span {
+        color: #ff5722;
+    }
+    
+    .vacation-plan .description {
+        font-size: 1.2em;
+        color: #666;
+    }
+    
+    
+    .card-container3 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    
+    }
+    .Card-1 img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    
+    .Card-2 img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        
+    }
+    
+    .Card-3 img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+    
+    
+    .blog-section h3{
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .blog-section h3 span{
+        color: #f47c43;
+    }
+    
+    .blog-section p{
+        text-align: center;
+        color: #666;
+    }
+    
+    .testimonial-section, .blog-section{
+        padding: 50px 20px;
+        background-color: #fff;
+        margin-bottom: 30px;
+    }
+    
+    .testimonial{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .navigition-buttons{
+    
+        background-color: #f47c43;
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        line-height: 20px;
+        position: absolute;
+    }
+    
+    .testimonial-content {
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+    }
+    
+    /* .testimonial-avatar{
+        border-radius: 50%;
+        margin-right: 20px;
+        width: 60px;
+        height: 60px;
+    } */
+    
+    
+    .blog-section {
+        background-color: #fff;
+        padding-top: 0;
+    }
+    
+    .blog-posts {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    
+    .blog-post {
+        width: 22%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .blog-post img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .blog-post h3 {
+        font-size: 16px;
+        color: #333;
+        margin-top: 10px;
+    }
+    
+    
+    .subscribe-container h2 {
+        margin: 0;
+        color: #fff;
+    
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-container h3, h4 {
+        margin: 0;
+        color: #0d0c0c;
+    }
+    
+    p {
+        color: #666;
+        font-size: 14px;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        margin-bottom: 10px;
+        text-decoration-color: #0d0c0c;
+    }
+    
+    
+    .subscribe-section {
+        background-color: #f47c43;
+        padding: 40px 20px;
+        text-align: center;
+        border-radius: 20px 20px 0 0;
+        margin-bottom: 30px;
+        border-radius: 100 rem;
+    }
+    
+    .subscribe-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .subscribe-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .subscribe-form input[type="email"] {
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: none;
+        width: 70%;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    
+    .subscribe-form button {
+        padding: 10px 30px;
+        border-radius: 50px;
+        border: none;
+        background-color: #fff;
+        color: #f47c43;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .subscribe-form button:hover {
+        background-color: #f47c43;
+        color: #fff;
+    }
+    
+    .footer {
+        background-color: #f0f0f0;
+        padding: 40px 20px;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-column {
+        flex: 1;
+        min-width: 200px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-column h3 {
+        color: #333;
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    
+    
+    .footer-column ul {
+        color: #666;
+        font-size: 14px;
+    }
+    
+    
+    .social-icons a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .footer-bottom {
+        text-align:center
+        margin-top: 30px;
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+    }
+    
+    .footer-bottom p {
+        margin: 5px 0;
+        font-size: 14px;
+        
+    }
+    
+    .footer-bottom a {
+        color: #f47c43;
+        font-weight: bold;
+    }
